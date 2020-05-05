@@ -1,0 +1,83 @@
+.container{
+  margin:100px auto 0;
+  word-wrap: break-word;
+}
+.headerTitle{
+  color: #222;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.registerMsg{
+  text-align: center;
+  margin: 10px auto 0;
+}
+.registerMsg a{
+  color: #1377c9;
+}
+.cardFormWrap{
+  margin: 0 auto;
+  background-color: rgb(89, 204, 224);
+  border-radius: 10px;
+  width:400px;
+  padding: 30px;
+  color: #222;
+  position: relative;
+  box-shadow: 1px 1px 10px #aaa;
+}
+.registerFormWrap{
+  margin: 0 auto;
+  background-color: rgb(216, 195, 217);
+  border-radius: 10px;
+  width:400px;
+  padding: 30px;
+  color: #222;
+  position: relative;
+  box-shadow: 1px 1px 10px #aaa;
+}
+.inputWrap{
+margin-bottom: 20px;
+}
+
+.inputElement{
+  outline: none;
+  border: 1px solid #ccc;
+  background-color:#fff;
+  border-radius: 5px;
+  font: inherit;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+.inputElement:focus{
+  border-color: #66afe9;
+  outline: 0;
+}
+.inputLabel{
+font-size: 12px;
+display: block;
+margin-bottom: 4px;
+}
+.submitBtn{
+  font-family: 'Roboto';
+  display: block;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #301c46;
+    padding:11px;
+    width: 100%;
+    letter-spacing: 1px;
+}
+.errorMsg{
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 2px;
+}
